@@ -1,0 +1,1 @@
+dic = {'Saraswati':75,'Priyanka':70,'Prakhar':85}
