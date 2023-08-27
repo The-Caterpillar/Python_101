@@ -1,5 +1,5 @@
-import tkinter as tk
-from PIL import Image, ImageTk
+import tkinter as tk # Used to create desktop application
+from PIL import Image, ImageTk # Python ki imaging library
 import random
 
 window = tk.Tk()
@@ -28,7 +28,7 @@ def dice_roll():
     label2.configure(image=image2)
     label2.image = image2
 
-button = tk.Button(window,text="ROLL", bg="red", fg="white", font="Times 20 bold", command=dice_roll)
+button = tk.Button(window,text="ROLL", bg="green", fg="white", font="Times 15 bold", command=dice_roll)
 button.place(x = 250, y=10)
 
 window.mainloop()
